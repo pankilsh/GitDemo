@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="PankilSharma.TestComponents.Listeners" />
+	</listeners>
+
+	<test name="TestOne" parallel="classes" thread-count="5">
+		<classes>
+			<class name="PankilSharma.Tests.SubmitOrderTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
